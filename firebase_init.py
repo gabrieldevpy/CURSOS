@@ -8,7 +8,6 @@ firebase_config = os.getenv("FIREBASE_CONFIG")
 if not firebase_config:
     raise Exception("Variável de ambiente FIREBASE_CONFIG não configurada!")
 
-# Tenta fazer o parse do JSON para obter a configuração do Firebase
 try:
     firebase_config_json = json.loads(firebase_config)
 except json.JSONDecodeError as e:
