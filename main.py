@@ -195,7 +195,7 @@ async def cancel(update: Update, context: CallbackContext):
 
 def main():
     # Obtém o token do bot a partir da variável de ambiente BOT_TOKEN
-    bot_token = os.getenv("BOT_TOKEN")
+    bot_token = os.getenv("7990357492:AAHLaFLgCg7FBxZh5VoJwqMaIadyS7bp8Tc")
     if not bot_token:
         raise Exception("Variável de ambiente BOT_TOKEN não configurada!")
     app = Application.builder().token(bot_token).build()
